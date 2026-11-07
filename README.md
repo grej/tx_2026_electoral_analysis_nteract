@@ -17,3 +17,9 @@ Other Jupyter tools work too if you install the pinned packages yourself. They'r
 - Early-vote data: [Jackson Hannan's early-vote dashboard](https://jacksonahannan.github.io/early-vote-dashboard/). All sources are credited inside the notebook.
 - Turnout counts can't show how anyone voted. The forecast's win probabilities come from the polls; the early-vote data explains the shift but doesn't change the odds. Every assumption is written out in Appendix C.
 - License: BSD 3-Clause (code and text). The data keeps its sources' terms.
+
+## Also here: Democratic Senate Stars (2026)
+
+`democratic_senate_stars.ipynb` is a short, step-by-step notebook that finds the 2026 Democratic Senate nominees who won their race and also ran at or ahead of the national shift. Swing is each candidate's 2026 margin minus their state's 2024 presidential margin. The national shift is +13.9 points, from the 2026 House popular vote (D+12.4, unofficial) against the 2024 presidential vote (R+1.5). It ends in one chart.
+
+It opens the same way: in nteract, with its own pinned conda environment and the data embedded in the file. The 2026 tallies are as of Nov 6, 2026. Mississippi had not been called by AP then, so Colom, who leads, is marked with an asterisk.
